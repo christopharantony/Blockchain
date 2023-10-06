@@ -1,6 +1,6 @@
 const INITIAL_STRING = "Hi there!";
 const UPDATED_STRING = "Bye there!";
-const INITIAL_GAS = "2000000";
+const INITIAL_GAS = "1000000";
 const RECOVERY_PHRASE =
   "galaxy west interest truth office glory double category repair gain chuckle ask";
 const WEB3_API_ENDPOINT =
