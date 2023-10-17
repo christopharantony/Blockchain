@@ -23,7 +23,7 @@ const deploy = async () => {
       .deploy({ data: bytecode, arguments: [INITIAL_STRING] })
       .send({ from: accounts[0], gas: INITIAL_GAS });
 
-    console.log("Contract deployed to", result.options.address);
+    console.log("Contract deployed to", result?.options?.address);
     provider.engine.stop();
   } catch (error) {
     console.log("error =>>", error);
